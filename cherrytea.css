@@ -1,0 +1,155 @@
+.navNav {
+  background-color: #5d4954;
+  display: flex;
+  justify-content: space-between;
+}
+* {
+  margin:0;
+  padding: 0;
+}
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float: right;
+  border-radius: 50px;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+#navContainer ul {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#ffa69e;
+  height: 10vh;
+ 
+}
+#navContainer ul li {
+  padding-left: 10px;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-right: 50px;
+  font-weight: bold;
+  
+ 
+}
+a {
+  text-decoration: none;
+  color: rgb(82, 80, 80);
+ 
+ }
+ li {
+  list-style: none;
+ 
+  
+ }
+body {
+background-color: #ffa69e;
+background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+}
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  text-align: center;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+.container {
+  position: relative;
+}
+
+
+.text-block {
+  position: relative;
+  bottom: 40px;
+  right: 6px;
+  background-color: #5d4954;
+  color: rgb(223, 206, 206);
+  padding-left: 20px;
+  padding-right: 18px;
+}
+.card { 
+  width: 600px;
+  height: 520px;
+  background-color: #FFF;
+  margin-left: 10px;
+  border:10px solid #5d4954;
+ 
+ 
+}
+section {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0 40px;
+width: 88%;
+margin-left: 30px;
+
+}
+.img2 {
+  margin-left: 2rem;
+  margin-top: 20px;
+  align-items: center;
+}
+.img1 {
+  margin-left: 2rem;
+  margin-top: 20px;
+  align-items: center;
+
+}
+.img3 {
+  margin-left: 2rem;
+  margin-top: 20px;
+ }
+ p {
+   margin-top: 0.5rem;
+ }
