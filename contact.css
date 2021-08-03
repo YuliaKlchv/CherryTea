@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  
+ }
+ body {
+  background-image: url("./img/hero.png");
+  background-repeat: no-repeat;
+   background-size: 500px 520px;
+   background-position:right;
+   
+   position: relative;
+  /* background-color: #ffa69e; */
+  /* background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%); */
+  }
+.feld {
+  border: 3px solid #5d4954; 
+  width: 400px;
+  height: 70px;
+  padding-bottom: 10px;
+  border-left-style: 30px;
+  background-color: #ffa69e;
+  
+}
+.formular {
+  border: 3px solid #555; 
+ background-color:#5d4954;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 650px;
+  margin-left: 50px;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: #5d4954;
+  border-top-left-radius: 25px;
+ background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+ 
+  
+}
+input[type=text] {
+  background-color: #ffa69e;
+  color:black;
+  height: 40px;
+  padding-top:5px;
+  margin-bottom: 10px;
+  text-align: center;
+  align-items: center;
+}
+button {
+
+  margin-top: 10px;
+  width: 53%;
+  height: 30px;
+  margin-bottom: 10px;
+}
+h2 {
+  margin:20px;
+  color: azure;
+}
+select {
+  width:400px;
+  height: auto;
+  font-size: large;
+}
+h1 {
+  color: azure;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
