@@ -1,0 +1,19 @@
+{
+  "name": "cherrytea",
+  "version": "1.0.0",
+  "description": "very quick sample",
+  "main": "cherrytea.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuliaKlchv/CherryTea.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuliaKlchv/CherryTea/issues"
+  },
+  "homepage": "https://github.com/YuliaKlchv/CherryTea#readme"
+}

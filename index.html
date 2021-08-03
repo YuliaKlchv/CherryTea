@@ -8,9 +8,11 @@
   <title>CherryTea</title>
   <link rel="shortcut icon" href="img/cherry.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 
 <body>
+  <header>
   <div class="navNav">
     <div class="logo"> <img src="./img/logo.png" style="width: 60px;"> </div>
     <div class="socialMedia">
@@ -25,21 +27,24 @@
      <div id="navContainer">
         <ul>
             <li><a href="page1.html">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">PRODUCTS</a></li>
-            <li><a href="#">LOGIN</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="products.html">PRODUCTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="login.css">LOGIN</a></li>
         </ul>
     </div>
 </div>
-
+</header>
 <div class="hero">
   <h1 class="ml9">
     <span class="text-wrapper">
-      <span class="letters" style = "color:#e2d5d7">Welcome to Cherry Tea</span>
+      <span class="letters" style = "color:#e2d5d7">Welcome to Cherry Tree</span>
     </span>
   </h1>
- <div class="container">
-  <img src="img/blossom.jpg" alt="Blossom" style="height:400px; width: 1000px; margin-left: 100px;">
+ <!-- <div class="container"> -->
+  <!-- <img src="img/blossom.jpg" alt="Blossom" style="height:400px; width: 1000px; margin-left: 100px;"> -->
+  <main>
+</main>
   <div class="text-block" style="float: right;">
     
     <p> We are such nature lovers giving the people a help to plant their own <b>Cherry Trees</b>
@@ -54,10 +59,11 @@
 </span>
 
 </div>
+
   <section>
      
      <div class="card">
-    <img class="img1" src="img/svg1.png" alt="Avatar" style="width:80%">
+    <a href="products.html"><img class="img1" src="img/svg1.png" alt="Avatar" style="width:80%"></a>
     <h1 style="text-align: center;">Why Cherry Tree </h1>
     <p style="text-align: center;">Known as "sakura" in Japanese, these pale blooms are a symbol of spring because it is a time of renewal.
        However, because the blooms are short-lived, they are also symbolic of the fleeting nature of life.</p>
@@ -65,34 +71,59 @@
       so the soil needs to drain well. They also require about eight hours of sunlight daily, so you cannot plant them where they grow.</p>
   </div>
     <div class="card">
-    <img class="img2" src="img/svg2.png" alt="Avatar" style="width:80%" >
+      <a href="about.html"><img class="img2" src="img/svg2.png" alt="Avatar" style="width:80%" ></a>
     <h1 style="text-align: center;">What We Offer</h1>
     <p style="text-align: center;">We are a Charity Organisation trying to help the earth to be more colorful and healty also helping to people who are suffering from hunger.
-      You can be the part of our team to reach more people or be the one who gives a hope to humanity and nature. If u have more ideas please
-     <a href="page1.html"></a><button> CONTACT</button> With Us </a>
+      You can be the part of our team to reach more people or be the one who gives a hope to humanity and nature.
+      <br>Click here to plant a tree and see more <br><a href="products.html"><b style="color: #5d4954">PRODUCTS</b></a><br>
+    <br> Read our privacy <a href="privacy.html"><b style="color: #5d4954">Policies</b></a>
     </p>
   </div>
     <div class="card">
      
     <img class="img3" src="img/svg3.png" alt="Avatar" style="width:80%">
-    <h1 style="text-align: center;">Join Our Team </h1> 
-    <h2 style="text-align: center;">WE NEED YOU</h2>
     <h2 style="text-align: center;">Our Nature Needs YOU</h2>
+    <h1 style="text-align: center;">Join Our Team </h1> 
+        
     <br>Doesn't matter where you live
     <br>Doesn't matter what you do for living
-    <br>If you are concerning about the future of our Planet and Humanity, You are one of US
+    <br>If you are concerning about the future of our Planet and Humanity,
+    <br> You are one of US
     <br>Come and Join US and lets save the World together !
-    <br>Fill out the <a href="page1.html">Contact Form</a></p>
+    <br>For the further information Please <a href="contact.html"><b style="color: #5d4954">CONTACT</b></a></p>
 
     </div>
   </section>
 <hr>
-<section>
-<footer> 
-  <div class="footer">
-  @Copyright CherryTea Yuliya Kalcheva 2021- All Right Reserved.   
-</div> 
-  </footer>  
-</section>
+
+      <footer>
+      <div class="footer">
+        <div class="socialMedia">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div> 
+        </div>
+        
+         <div id="footerContainer">
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Products</a></li>
+            <li class="list-inline-item"><a href="#">Contact</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+        </ul>
+        </div>
+    </div>
+    
+        <p class="copyright"><small>&copy; Copyright 2021 , Cherry Tree<br>All Rights Reserved<br> </small>  </p>
+    </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
